@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Bai2" />
+		<Option execution_dir="C:/Users/ADMIN/Desktop/complier_lab_1-main/complier_lab_1-main/incompleted/Bai2/" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Bai2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="C:\Users\ADMIN\Desktop\Complier\Bai2\test\example2.kpl " />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Bai2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="incompleted/Makefile" />
+		<Unit filename="incompleted/charcode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="incompleted/charcode.h" />
+		<Unit filename="incompleted/error.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="incompleted/error.h" />
+		<Unit filename="incompleted/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="incompleted/parser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="incompleted/parser.h" />
+		<Unit filename="incompleted/reader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="incompleted/reader.h" />
+		<Unit filename="incompleted/scanner.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="incompleted/scanner.h" />
+		<Unit filename="incompleted/token.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="incompleted/token.h" />
+		<Unit filename="test/example1.kpl" />
+		<Unit filename="test/example2.kpl" />
+		<Unit filename="test/example3.kpl" />
+		<Unit filename="test/example4.kpl" />
+		<Unit filename="test/example5.kpl" />
+		<Unit filename="test/example6.kpl" />
+		<Unit filename="test/example7.kpl" />
+		<Unit filename="test/result1.txt" />
+		<Unit filename="test/result2.txt" />
+		<Unit filename="test/result3.txt" />
+		<Unit filename="test/result4.txt" />
+		<Unit filename="test/result5.txt" />
+		<Unit filename="test/result6.txt" />
+		<Unit filename="test/result7.txt" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
